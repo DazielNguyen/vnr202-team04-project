@@ -740,6 +740,29 @@ dialog{border-top:5px solid var(--red);border-radius:2px}
 @media(max-width:800px){.crisis .section-head{display:block}.crisis .failure-line{display:flex;gap:.8rem;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:1rem}.crisis .movement-card{flex:0 0 min(82vw,360px);height:380px;scroll-snap-align:center}.crisis .question-band{grid-template-columns:1fr}.crisis .question-band>p,.crisis .question-band>.source-badge{grid-column:1}.crisis .gap-grid{grid-template-columns:1fr}.crisis .gap{min-height:95px}}
 
 /* Scene 03 — cause-and-effect social context */
+.international{color:#fff;background:radial-gradient(circle at 72% 24%,rgba(176,39,31,.22),transparent 30%),linear-gradient(135deg,#17110f,#302119 62%,#150d0c)}
+.international:before{content:'';position:absolute;inset:0;opacity:.14;background-image:linear-gradient(90deg,rgba(237,194,101,.13) 1px,transparent 1px),linear-gradient(rgba(237,194,101,.13) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(90deg,transparent,#000 30%,#000 70%,transparent)}
+.international .scene-inner{max-width:var(--content-max)}
+.international-heading{display:grid;grid-template-columns:1.25fr .75fr;gap:4rem;align-items:end;margin-bottom:1rem;padding-bottom:.85rem;border-bottom:1px solid rgba(255,255,255,.17)}
+.international-heading>div{padding-left:1.1rem;border-left:3px solid var(--gold)}
+.international-heading .chapter{margin:0 0 .65rem;color:var(--gold);font-size:.63rem;letter-spacing:.18em}
+.international-heading h2{margin:0;font:800 clamp(2.9rem,4.7vw,5.3rem)/.91 var(--display);letter-spacing:-.04em}
+.international-heading h2 em{color:var(--gold);font-style:normal}
+.international-heading>p{margin:0;color:#d8cbc3;font-size:.85rem;line-height:1.7}
+.international-art{position:relative;height:clamp(260px,34vh,390px);margin:0;border:1px solid rgba(219,175,83,.48);overflow:hidden;background:#17100d}
+.international-art:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(24,11,8,.32),transparent 28%,transparent 72%,rgba(24,11,8,.38));pointer-events:none}
+.international-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 56%;filter:saturate(.84) contrast(1.06)}
+.international-milestones{display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem;margin-top:.7rem}
+.international-milestones article{min-height:105px;padding:.85rem 1rem;border-top:3px solid var(--gold);background:rgba(255,255,255,.06);display:grid;grid-template-columns:112px 1fr;grid-template-rows:auto auto;column-gap:.85rem;align-content:center}
+.international-milestones b{grid-row:1/3;color:#f0c875;font:800 1rem var(--display);letter-spacing:.04em}
+.international-milestones strong{font:800 1rem/1.08 var(--display);letter-spacing:.015em}
+.international-milestones span{margin-top:.25rem;color:#ddd0c6;font-size:.66rem;line-height:1.45}
+.international-evidence{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:.65rem;margin-top:.7rem}
+.international-evidence .label{margin:0;white-space:nowrap}
+.international-evidence .source-badge{width:100%!important;margin:0!important;padding:.55rem .75rem!important}
+@media(max-height:780px) and (min-width:801px){.international-heading{margin-bottom:.8rem;padding-bottom:.7rem}.international-heading h2{font-size:3.2rem}.international-art{height:300px}.international-milestones{margin-top:.55rem}.international-milestones article{min-height:82px;padding:.6rem .8rem}.international-evidence{margin-top:.55rem}.international-milestones span{font-size:.6rem}}
+@media(max-width:800px){.international{padding-top:6.5rem}.international-heading{grid-template-columns:1fr;gap:1rem}.international-heading h2{font-size:3.1rem}.international-art{height:230px}.international-milestones{grid-template-columns:1fr}.international-milestones article{min-height:0}.international-evidence{grid-template-columns:1fr}.international-evidence .label{justify-self:start}}
+
 .context{background:
   radial-gradient(circle at 18% 48%,rgba(151,38,30,.17),transparent 34%),
   linear-gradient(138deg,#171210,#251b17 58%,#15100e)}
