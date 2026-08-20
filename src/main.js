@@ -2,8 +2,6 @@ import './styles.css';
 import { sources, preparation, platform, quiz } from './data.js';
 import textbookUrl from '../gt-lich-su-dang-csvn-ban-tuyen-giao-tw.pdf?url';
 import timeline1911 from '../assets/generated/timeline-1911-source.webp';
-import timeline1925 from '../assets/generated/timeline-1925.webp';
-import timeline1928 from '../assets/generated/timeline-1928.webp';
 import canVuongImage from '../assets/phongtrao/1.tranh-ve-minh-hoa-phong-trao-can-vương.jpg';
 import yenTheImage from '../assets/phongtrao/2_khoi_nghia_yen_the.jpg';
 import dongDuImage from '../assets/phongtrao/3_phong_trao_Dong_du.jpg';
@@ -11,19 +9,22 @@ import duyTanImage from '../assets/phongtrao/4-phong-trao-duy-tan.webp';
 import quocDanDangImage from '../assets/phongtrao/5-VN-Quoc-dan_dang.gif';
 import archiveParis1921 from '../assets/generated/archive-paris-1921.webp';
 import archiveTours1920 from '../assets/generated/archive-tours-1920.webp';
-import archiveComintern1924 from '../assets/generated/archive-comintern-1924.webp';
 import archiveThailand1928 from '../assets/generated/archive-thailand-1928.webp';
 import conferencePhoto from '../assets/bac-ho-hop-tai-cuu-long.jpeg';
 import colonialContextImage from '../assets/generated/colonial-context.webp';
+import leninTheseImage from '../assets/bac-ho-doc-luan-cuong-cua-lenin.png';
+import thanhNienImage from '../assets/hoi-viet-nam-cach-mang-thanh-nien.jpg';
+import quangChauImage from '../assets/bac-ho-o-quang-chau.webp';
+import duongKachMenhImage from '../assets/duongkachmenh.jpg';
 
 const timelineMedia=[
  {url:timeline1911,caption:'TRANH MINH HỌA NGUYỄN TẤT THÀNH RỜI TỔ QUỐC NGÀY 5/6/1911 · NGUỒN: IN KỸ THUẬT SỐ'},
  {url:archiveParis1921,caption:'ẢNH TƯ LIỆU GẦN GIAI ĐOẠN · PARIS, 1921 · NGUỒN: IN KỸ THUẬT SỐ'},
+ {url:leninTheseImage,caption:'NGUYỄN ÁI QUỐC ĐỌC LUẬN CƯƠNG CỦA LÊNIN · 7/1920 · NGUỒN: TƯ LIỆU'},
  {url:archiveTours1920,caption:'NGUYỄN ÁI QUỐC TẠI ĐẠI HỘI TOURS · 12/1920 · NGUỒN: IN KỸ THUẬT SỐ'},
- {url:archiveTours1920,caption:'NGUYỄN ÁI QUỐC TẠI ĐẠI HỘI TOURS · 12/1920 · NGUỒN: IN KỸ THUẬT SỐ'},
- {url:archiveComintern1924,caption:'ĐẠI HỘI V QUỐC TẾ CỘNG SẢN · MOSKVA, 1924 · NGUỒN: IN KỸ THUẬT SỐ'},
- {url:timeline1925,caption:'MINH HỌA AI · QUẢNG CHÂU 1925 · KHÔNG PHẢI ẢNH TƯ LIỆU'},
- {url:timeline1928,caption:'MINH HỌA AI · LÝ LUẬN ĐẾN THỰC TIỄN · KHÔNG PHẢI ẢNH TƯ LIỆU'},
+ {url:quangChauImage,caption:'ẢNH TƯ LIỆU · NGUYỄN ÁI QUỐC TẠI QUẢNG CHÂU · 1924'},
+ {url:thanhNienImage,caption:'TRANH TƯ LIỆU · NGUYỄN ÁI QUỐC GIẢNG BÀI TẠI LỚP HUẤN LUYỆN CÁN BỘ CÁCH MẠNG · QUẢNG CHÂU, 1925'},
+ {url:duongKachMenhImage,caption:'ẢNH TƯ LIỆU · BÌA SÁCH ĐƯỜNG KÁCH MỆNH · 1927'},
  {url:archiveThailand1928,caption:'BÁC HỒ (THẦU CHÍN) VÀ CÁC ĐỒNG CHÍ TẠI THÁI LAN, 1928 · TƯ LIỆU/TTXVN'}
 ];
 const patrioticMovements=[
@@ -61,6 +62,7 @@ function home(){return shell(`
  </div></section>
  <section class="scene context" id="scene-3" data-scene="3"><div class="scene-inner">
   <header class="context-heading"><div><p class="chapter">02 · ĐIỀU KIỆN XÃ HỘI</p><h2>Một xã hội bị<br><em>biến đổi tận gốc.</em></h2></div><p>Chế độ thuộc địa không chỉ áp đặt quyền cai trị; nó còn làm biến đổi cơ cấu giai cấp và đẩy mâu thuẫn dân tộc ngày càng gay gắt.</p></header>
+  <div class="world-strip"><div class="world-head"><p class="world-kicker">BỐI CẢNH QUỐC TẾ</p>${label()}</div><p class="world-text"><b>Đế quốc bành trướng</b> — các nước tư bản phương Tây đẩy mạnh xâm chiếm, nô dịch các nước nhỏ yếu. <b>1917</b> — Cách mạng Tháng Mười Nga làm biến đổi sâu sắc tình hình thế giới. <b>1919–1920</b> — Quốc tế Cộng sản ra đời, đặt vấn đề dân tộc và thuộc địa vào chiến lược cách mạng thế giới.</p><div class="world-evidence">${sourceButton('international')}</div></div>
   <div class="context-stage"><figure class="historical-art context-art"><img src="${colonialContextImage}" alt="Minh họa cổ động về xã hội Việt Nam dưới chế độ thuộc địa: công nhân, nông dân và trí thức xuất hiện trước nhà máy, hầm mỏ và bộ máy cai trị." loading="lazy"><figcaption>MINH HỌA AI · KHÔNG PHẢI ẢNH TƯ LIỆU</figcaption><div class="context-image-label"><small>BỐI CẢNH</small><strong>Việt Nam dưới<br>chế độ thuộc địa</strong></div></figure><div class="cause-map"><div class="cause-root"><small>NGUYÊN NHÂN GỐC</small><strong>CHẾ ĐỘ THUỘC ĐỊA</strong></div><div class="causes"><article><b>01 · CHÍNH TRỊ</b><p>Đàn áp, chính quyền thuộc địa, “chia để trị”.</p></article><article><b>02 · KINH TẾ</b><p>Khai thác tài nguyên, lao động và thị trường.</p></article><article><b>03 · VĂN HÓA — XÃ HỘI</b><p>Chính sách nô dịch và “ngu dân”.</p></article></div><div class="effect"><small>HỆ QUẢ</small><strong>BIẾN ĐỔI CƠ CẤU XÃ HỘI</strong><span>Mâu thuẫn dân tộc ngày càng gay gắt</span></div></div></div>
   <div class="context-summary"><div class="worker-stat"><span>Giai cấp công nhân phát triển</span><b>≈ 10 vạn <small>1913</small></b><i>→</i><b>&gt; 22 vạn <small>cuối 1929</small></b></div><div class="context-evidence">${label()} ${sourceButton('context')}</div></div>
  </div></section>

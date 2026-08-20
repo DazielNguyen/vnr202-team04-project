@@ -1,4 +1,5 @@
 export const sources = {
+  international:{id:'international',title:'Bối cảnh quốc tế trước 1930',pages:'16',used:'Cảnh 03',claim:'Bối cảnh quốc tế đầu thế kỷ XX mở ra một không gian chính trị mới cho phong trào giải phóng dân tộc.'},
   context:{id:'context',title:'Bối cảnh thuộc địa và biến đổi xã hội',pages:'16–19',used:'Cảnh 03',claim:'Chính sách cai trị thuộc địa làm biến đổi cơ cấu xã hội Việt Nam.'},
   gaps:{id:'gaps',title:'Khủng hoảng đường lối cứu nước',pages:'19–22',used:'Cảnh 02',claim:'Phong trào yêu nước liên tục nhưng còn khoảng trống về đường lối, tổ chức và phương pháp.'},
   preparation:{id:'preparation',title:'Nguyễn Ái Quốc chuẩn bị điều kiện',pages:'22–26',used:'Cảnh 04',claim:'Quá trình chuẩn bị diễn ra về tư tưởng, chính trị, tổ chức và cán bộ.'},
