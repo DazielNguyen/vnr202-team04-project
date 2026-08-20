@@ -13,6 +13,7 @@ import archiveThailand1928 from '../assets/generated/archive-thailand-1928.webp'
 import conferencePhoto from '../assets/bac-ho-hop-tai-cuu-long.jpeg';
 import colonialContextImage from '../assets/generated/colonial-context.webp';
 import internationalContextImage from '../assets/generated/international-context-triptych-v1.png';
+import octoberRevolutionImage from '../assets/cach-mang-thang-10-nga.jpg';
 import presentationVideo from '../assets/vnr-presentation-1080p.mp4?url';
 import posterOne from '../assets/poster-01.svg?url';
 import posterTwo from '../assets/poster-02.svg?url';
@@ -70,7 +71,7 @@ function home(){return shell(`
  </div></section>
  <section class="scene international" id="scene-4" data-scene="4"><div class="scene-inner">
   <header class="international-heading"><div><p class="chapter">02 · BỐI CẢNH QUỐC TẾ</p><h2>Thế giới mở ra<br><em>một con đường mới.</em></h2></div><p>Từ sự bành trướng của chủ nghĩa đế quốc đến Cách mạng Tháng Mười và Quốc tế Cộng sản, phong trào giải phóng dân tộc có thêm một không gian lựa chọn mới.</p></header>
-  <figure class="international-art"><img src="${internationalContextImage}" alt="Tranh minh họa bối cảnh quốc tế: sự bành trướng của chủ nghĩa đế quốc, Cách mạng Tháng Mười Nga và Quốc tế Cộng sản."><figcaption>MINH HỌA AI · KHÔNG PHẢI ẢNH TƯ LIỆU</figcaption></figure>
+  <figure class="international-art historical-photo"><img src="${octoberRevolutionImage}" alt="Tranh minh họa Cách mạng Tháng Mười Nga năm 1917."><figcaption>TRANH MINH HỌA LỊCH SỬ · CÁCH MẠNG THÁNG MƯỜI NGA, 1917</figcaption></figure>
   <div class="international-milestones"><article><b>CUỐI TK XIX</b><strong>Chủ nghĩa đế quốc<br>bành trướng</strong><span>Xâm chiếm, áp bức và nô dịch các dân tộc thuộc địa.</span></article><article><b>1917</b><strong>Cách mạng<br>Tháng Mười Nga</strong><span>Mở ra thời đại mới và cổ vũ các dân tộc bị áp bức.</span></article><article><b>1919–1920</b><strong>Quốc tế Cộng sản<br>và vấn đề thuộc địa</strong><span>Đặt giải phóng dân tộc vào chiến lược cách mạng thế giới.</span></article></div>
   <div class="international-evidence">${label()} ${sourceButton('international')}</div>
  </div></section>
