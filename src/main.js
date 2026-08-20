@@ -2,7 +2,7 @@ import './styles.css';
 import { sources, preparation, platform, quiz } from './data.js';
 import textbookUrl from '../gt-lich-su-dang-csvn-ban-tuyen-giao-tw.pdf?url';
 import timeline1911 from '../assets/generated/timeline-1911-source.webp';
-import canVuongImage from '../assets/phongtrao/1.tranh-ve-minh-hoa-phong-trao-can-vương.jpg';
+import canVuongImage from '../assets/phongtrao/1.tranh-ve-minh-hoa-phong-trao-can-vương.jpg';
 import yenTheImage from '../assets/phongtrao/2_khoi_nghia_yen_the.jpg';
 import dongDuImage from '../assets/phongtrao/3_phong_trao_Dong_du.jpg';
 import duyTanImage from '../assets/phongtrao/4-phong-trao-duy-tan.webp';
