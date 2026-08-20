@@ -1,12 +1,12 @@
 export const sources = {
-  international:{id:'international',title:'Bối cảnh quốc tế trước 1930',pages:'16',used:'Cảnh 03 · Bối cảnh quốc tế',claim:'Bối cảnh quốc tế đầu thế kỷ XX mở ra một không gian chính trị mới cho phong trào giải phóng dân tộc.'},
-  context:{id:'context',title:'Bối cảnh thuộc địa và biến đổi xã hội',pages:'16–19',used:'Cảnh 04 · Bối cảnh trong nước',claim:'Chính sách cai trị thuộc địa làm biến đổi cơ cấu xã hội Việt Nam.'},
-  gaps:{id:'gaps',title:'Khủng hoảng đường lối cứu nước',pages:'19–22',used:'Cảnh 02',claim:'Phong trào yêu nước liên tục nhưng còn khoảng trống về đường lối, tổ chức và phương pháp.'},
-  preparation:{id:'preparation',title:'Nguyễn Ái Quốc chuẩn bị điều kiện',pages:'22–26',used:'Cảnh 05',claim:'Quá trình chuẩn bị diễn ra về tư tưởng, chính trị, tổ chức và cán bộ.'},
-  organizations:{id:'organizations',title:'Các tổ chức cộng sản năm 1929',pages:'26–28',used:'Cảnh 06',claim:'Ba tổ chức phản ánh bước phát triển mới nhưng đồng thời gây phân tán lực lượng.'},
-  conference:{id:'conference',title:'Hội nghị hợp nhất',pages:'28–29',used:'Cảnh 07',claim:'Hội nghị diễn ra tại Cửu Long, Hồng Kông từ 6/1 đến 7/2/1930, do Nguyễn Ái Quốc chủ trì.'},
-  platform:{id:'platform',title:'Cương lĩnh chính trị đầu tiên',pages:'29–31',used:'Cảnh 08',claim:'Cương lĩnh đầu tiên gồm Chánh cương vắn tắt và Sách lược vắn tắt.'},
-  turning:{id:'turning',title:'Ý nghĩa lịch sử của sự thành lập Đảng',pages:'31–32',used:'Cảnh 09',claim:'Sự ra đời của Đảng chấm dứt khủng hoảng về đường lối và tổ chức lãnh đạo.'}
+  international:{id:'international',title:'Bối cảnh quốc tế trước 1930',pages:'16',used:'Cảnh 04 · Bối cảnh quốc tế',claim:'Bối cảnh quốc tế đầu thế kỷ XX mở ra một không gian chính trị mới cho phong trào giải phóng dân tộc.'},
+  context:{id:'context',title:'Bối cảnh thuộc địa và biến đổi xã hội',pages:'16–19',used:'Cảnh 05 · Bối cảnh trong nước',claim:'Chính sách cai trị thuộc địa làm biến đổi cơ cấu xã hội Việt Nam.'},
+  gaps:{id:'gaps',title:'Khủng hoảng đường lối cứu nước',pages:'19–22',used:'Cảnh 03',claim:'Phong trào yêu nước liên tục nhưng còn khoảng trống về đường lối, tổ chức và phương pháp.'},
+  preparation:{id:'preparation',title:'Nguyễn Ái Quốc chuẩn bị điều kiện',pages:'22–26',used:'Cảnh 06',claim:'Quá trình chuẩn bị diễn ra về tư tưởng, chính trị, tổ chức và cán bộ.'},
+  organizations:{id:'organizations',title:'Các tổ chức cộng sản năm 1929',pages:'26–28',used:'Cảnh 07',claim:'Ba tổ chức phản ánh bước phát triển mới nhưng đồng thời gây phân tán lực lượng.'},
+  conference:{id:'conference',title:'Hội nghị hợp nhất',pages:'28–29',used:'Cảnh 08',claim:'Hội nghị diễn ra tại Cửu Long, Hồng Kông từ 6/1 đến 7/2/1930, do Nguyễn Ái Quốc chủ trì.'},
+  platform:{id:'platform',title:'Cương lĩnh chính trị đầu tiên',pages:'29–31',used:'Cảnh 09',claim:'Cương lĩnh đầu tiên gồm Chánh cương vắn tắt và Sách lược vắn tắt.'},
+  turning:{id:'turning',title:'Ý nghĩa lịch sử của sự thành lập Đảng',pages:'31–32',used:'Cảnh 10',claim:'Sự ra đời của Đảng chấm dứt khủng hoảng về đường lối và tổ chức lãnh đạo.'}
 };
 export const preparation=[
  ['1911','Ra đi tìm đường cứu nước','Mở quá trình khảo nghiệm một con đường giải phóng dân tộc mới.'],

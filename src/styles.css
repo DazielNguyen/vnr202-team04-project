@@ -1015,3 +1015,27 @@ body[data-mode=study] .rail-line i{
 }
 @media(max-height:700px) and (min-width:801px){body[data-mode=study] .rail{gap:.1rem;padding:.7rem 0}body[data-mode=study] .rail a{width:26px;height:26px}body[data-mode=study] .rail a.active{width:32px;height:32px}body[data-mode=study] .rail:before,body[data-mode=study] .rail:after{display:none}body[data-mode=study] .rail-line{top:1.6rem;bottom:1.6rem}}
 @media(max-width:800px){.context-heading{grid-template-columns:1fr;gap:1rem}.context-heading h2{font-size:3.1rem}.context .context-stage{grid-template-columns:1fr}.context .context-art{height:330px}.context-summary{grid-template-columns:1fr}.context .worker-stat{flex-wrap:wrap}.context-evidence{grid-template-columns:1fr}.context .causes article{grid-template-columns:1fr}}
+
+/* Presentation clip and creative outputs */
+.video-showcase,.creative-showcase{color:#fff;background:radial-gradient(circle at 78% 18%,rgba(177,28,33,.24),transparent 29%),linear-gradient(135deg,#170908,#321613 62%,#180d0a)}
+.video-showcase:before,.creative-showcase:before{content:'';position:absolute;inset:0;opacity:.12;background:linear-gradient(90deg,rgba(235,187,91,.18) 1px,transparent 1px),linear-gradient(rgba(235,187,91,.18) 1px,transparent 1px);background-size:80px 80px;mask-image:linear-gradient(90deg,transparent,#000 25%,#000 75%,transparent)}
+.video-showcase .scene-inner,.creative-showcase .scene-inner{max-width:var(--content-max)}
+.media-page-heading{display:grid;grid-template-columns:1.25fr .75fr;gap:3rem;align-items:end;margin-bottom:1rem;padding-bottom:.85rem;border-bottom:1px solid rgba(255,255,255,.18)}
+.media-page-heading .chapter{grid-column:1/-1;margin:0;color:var(--gold);font-size:.63rem;letter-spacing:.18em}
+.media-page-heading h2{margin:0;padding-left:1.1rem;border-left:3px solid var(--gold);font:800 clamp(2.8rem,4.6vw,5.1rem)/.91 var(--display);letter-spacing:-.04em}
+.media-page-heading h2 em{color:var(--gold);font-style:normal}
+.media-page-heading>p:last-child{margin:0;color:#ddd0c6;font-size:.82rem;line-height:1.65}
+.video-stage{position:relative;width:min(100%,99.5vh);height:min(56vh,620px);margin:auto;border:1px solid rgba(228,185,91,.6);background:#090606;box-shadow:0 24px 60px rgba(0,0,0,.28)}
+.video-stage video{display:block;width:100%;height:100%;object-fit:contain;background:#000}
+.media-fullscreen{position:absolute;z-index:3;right:.8rem;top:.8rem;display:inline-flex;align-items:center;gap:.45rem;border:1px solid rgba(255,255,255,.55);border-radius:99px;padding:.5rem .75rem;background:rgba(19,5,5,.72);backdrop-filter:blur(8px);color:#fff;font-size:.58rem;font-weight:800;letter-spacing:.09em;cursor:pointer;transition:background .2s,transform .2s}
+.media-fullscreen:hover{background:var(--red);transform:translateY(-2px)}
+.video-stage video:fullscreen{width:100%;height:100%;object-fit:contain;background:#000}
+.poster-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;align-items:stretch}
+.poster-card{position:relative;min-width:0;height:min(59vh,600px);margin:0;border:1px solid rgba(228,185,91,.55);background:#17100e;overflow:hidden;box-shadow:0 20px 46px rgba(0,0,0,.22)}
+.poster-card img{display:block;width:100%;height:100%;object-fit:contain;background:#0b0807}
+.poster-card figcaption{position:absolute;z-index:2;left:.8rem;bottom:.8rem;margin:0;padding:.45rem .65rem;background:rgba(23,6,6,.76);color:#f3d08a;font-size:.58rem;font-weight:800;letter-spacing:.13em}
+.poster-card:fullscreen{display:grid;place-items:center;width:100%;height:100%;padding:2rem;background:#090706}
+.poster-card:fullscreen img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+.poster-card:fullscreen .media-fullscreen{position:fixed}
+@media(max-height:780px) and (min-width:801px){.media-page-heading{margin-bottom:.75rem;padding-bottom:.7rem}.media-page-heading h2{font-size:3.1rem}.video-stage{height:min(52vh,500px)}.poster-card{height:min(53vh,500px)}}
+@media(max-width:800px){.video-showcase,.creative-showcase{padding-top:6.4rem}.media-page-heading{grid-template-columns:1fr;gap:.85rem}.media-page-heading h2{font-size:3.1rem}.media-page-heading>p:last-child{font-size:.78rem}.video-stage{width:100%;height:auto;aspect-ratio:16/9}.media-fullscreen{right:.55rem;top:.55rem}.media-fullscreen span{display:none}.poster-grid{grid-template-columns:1fr}.poster-card{height:auto;aspect-ratio:3/2}.poster-card:fullscreen{aspect-ratio:auto}}

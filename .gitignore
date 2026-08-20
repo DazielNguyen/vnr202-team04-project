@@ -1,0 +1,43 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated builds
+node_modules/
+dist/
+
+# Local AI agents, Claude, MCP and CK configuration
+.agent/
+.agents/
+.claude/
+.codex/
+.mcp.json
+.mcp/
+mcp/
+.ck.json
+.ck/
+ck/
+
+# Local notes and experiments unrelated to the production website
+Promt.md
+promt_vi.md
+mediapipe.md
+flag-hands.html
+
+# Unused source experiments and duplicate generated artwork
+assets/Bac_Ho_hop.jpg
+assets/generated/*.jpg
+assets/generated/colonial-context.png
+assets/generated/conference-kowloon.png
+assets/generated/hero-1930.png
+assets/generated/preparation-eight-stage-mural.png
+assets/generated/timeline-1911.png
+assets/generated/timeline-1911.webp
+assets/generated/timeline-1919.png
+assets/generated/timeline-1919.webp
+assets/generated/timeline-1920.png
+assets/generated/timeline-1920.webp
+assets/generated/timeline-1925.png
+assets/generated/timeline-1928.png
+.vercel
